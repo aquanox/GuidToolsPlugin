@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "GUID Tools Plugin",
+	"Description": "Plugin provides extra GUID functions",
+	"Category": "Core",
+	"CreatedBy": "Aquanox",
+	"CreatedByURL": "https://github.com/aquanox/GuidToolsPlugin",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/aquanox/GuidToolsPlugin/issues",
+	"EngineVersion": "",
+	"CanContainContent": false,
+	"Installed": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": true,
+	"EnabledByDefault": true,
+	"Modules": [
+		{
+			"Name": "GuidToolsCore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "GuidToolsEditor",
+			"Type": "EditorNoCommandlet",
+			"LoadingPhase": "Default"
+		}
+	]
+}
